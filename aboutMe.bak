@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <div class="hi">
+          <h1>Hi, I'm</h1>
+          <h2>Dave</h2>
+        </div>
+      </div>
+    </div>
+    <div id="content">
+      <div class="container">
+        <h1>Introduction</h1>
+        <p>I’m full time Hospice RN and part/full time Thinkful student – a future Web Developer. I live in Nashville. Nashville has been good to me; I met my wife and started my family here. Before that I was an Army Brat that came of age in Massachusetts GO PATS! go celtics (please start winning).</p>
+        <h1>Where I'm From</h1>
+        <p>Nashville is a burgeoning Med Tech hub, and I’m trying to position myself for that market. Actually Nashville is a burgeoning everything hub. We have great music, obviously. But we also have great food. Artisanal is an often used word, and appropriately so. It’s a good time to take risks in Nashville, especially in web development.</p>
+        <br>
+        <h1>More about Me</h1>
+        <h2>What are your favorite hobbies?</h2>
+        <p>I like Crossfit and weightlifting. I love to travel, have recently been to England, France & Spain. Since I’m a father, I’ve been on the Disney Cruise three times. With more cruises to come.</p>
+        <h2>What's your dream job?</h2>
+        <p>Dream Job? First: dreams are like children, living, breathing, growing and dynamic. Today, I want to design Electronic Health Records for small healthcare facilities like Skilled Nursing Facilities, Assisted Living Facilities, and Clinics. But I’m open to developing applications that help passionate workers do their job better, smarter, and healthier. Anything that enriches the user experience. I want to build great tools.</p>
+        <h2>What's your background?</h2>
+        <p>I have had journeyman’s life. I spent 4 hard years in the US Air Force, that formed a core of who I am. Then I went to University of Texas – core #2. Then I took an IT job for five years. And followed that with nursing school – cores #3 and #4. I’ve been a nurse for 6+ years, working in the emergency department, psych, and hospice. I plan on tying everything together by working in healthcare IT.</p>
+        <h2>What music have you been listening to?</h2>
+        <p>This is probably a great place to impress connoisseurs, and talk about how I’ve been listening to Wilco since California Stars was a “hit.” Or say that I listen to Belle & Sebastian, but only albums Tiger Milk to Fold Your Hands, because Fold Your Hands was the last good album. But I have 3 kids so I listen to Disney Music and Christmas Music.</p>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="container">
+        <p>Say hit to me on these social networks</p>
+          <ul>
+            <li><a href="">Github</a></li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">Google+</a></li>
+          </ul>
+          <br>
+          <p>Cover Image via <a href="">Unsplash</a></p>
+      </div>
+    </div>
+
+  </body>
+</html>

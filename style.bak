@@ -1,0 +1,49 @@
+.container {
+  font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  margin: 0 auto;
+  overflow: hidden;
+  padding 0 15px;
+  width: 50%;
+}
+
+.hi {
+
+}
+
+#header {
+  background-image: url("images/fromAbove.jpg");
+  color: rgb(255, 139, 0);
+}
+
+#content {
+  background-color: rgb(170, 118, 57);
+  font-family: 'Freight Text Pro', serif;
+  color: rgb(82, 77, 72);
+}
+
+#footer {
+  background-color: rgb(214, 122, 12);
+  color: rgb(82, 77, 72);
+}
+
+ul {
+  list-style-type: none;
+  margin:0;
+  padding 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: white;
+}

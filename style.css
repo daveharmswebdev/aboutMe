@@ -1,49 +1,42 @@
-.container {
-  font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
-  margin: 0 auto;
-  overflow: hidden;
-  padding 0 15px;
-  width: 50%;
+body {
+  background-color: rgb(228,154, 55);
 }
 
-.hi {
-
+.masthead {
+  background-image: url(images/fromAbove.jpg);
+  background-size: cover;
+  padding: 6rem;
+  border-top: 1.5rem solid rgb(228,154, 55);
 }
 
-#header {
-  background-image: url("images/fromAbove.jpg");
-  color: rgb(255, 139, 0);
-}
-
-#content {
-  background-color: rgb(170, 118, 57);
-  font-family: 'Freight Text Pro', serif;
-  color: rgb(82, 77, 72);
-}
-
-#footer {
-  background-color: rgb(214, 122, 12);
-  color: rgb(82, 77, 72);
-}
-
-ul {
-  list-style-type: none;
-  margin:0;
-  padding 0;
-  overflow: hidden;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
+.masthead-intro {
+  margin-bottom: 0.1rem;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  color: white;
+  font-family: 'Arvo', serif;
+  font-size: 2rem;
 }
 
-li a:hover {
-  background-color: white;
+.masthead-heading {
+  margin-top: -0.2rem;
+  text-align: center;
+  color: rgb( 198, 120, 17);
+  font-family: 'Abril Fatface', cursive;
+  font-size: 6rem;
+}
+
+section {
+  width: 50%;
+  margin: 0 auto;
+}
+
+section h1, section h2 {
+  text-align: center;
+  font-family: 'Arvo', serif;
+  color: rgb( 86, 49,  0);
+}
+
+section p {
+  font-family: 'Arvo', serif;
+  color: rgb( 86, 49,  0);
 }
