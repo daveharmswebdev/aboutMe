@@ -26,7 +26,7 @@ body {
 }
 
 section {
-  width: 50%;
+  max-width: 38em;
   margin: 0 auto;
 }
 
@@ -39,4 +39,69 @@ section h1, section h2 {
 section p {
   font-family: 'Arvo', serif;
   color: rgb( 86, 49,  0);
+}
+
+.introduction,
+.location,
+.questions {
+  margin-top: 2em;
+}
+
+.content-footer {
+  text-align: center;
+  background-color: rgb( 86, 49,  0);
+  padding: 1rem 0;
+}
+
+.content-footer > p {
+  font-family: 'Arvo', serif;
+  color: white;
+}
+
+.social {
+  padding: 0;
+}
+
+.social > li {
+  display: inline-block;
+  margin: 0 0.5rem;
+  font-family: 'Arvo', serif;
+}
+
+a:link {
+  text-decoration: none;
+  color: rgb(198,120, 17);
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(198,120, 17);
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(228,154, 55);
+}
+
+@media only screen and (max-width: 1200px) {
+  .masthead-intro {
+    font-size: 10rem;
+  }
+
+  .masthead-heading {
+    font-size: 20rem;
+  }
+
+  section {
+    max-width: 50rem;
+  }
+
+  section h1,
+  section h2 {
+    font-size: 2rem;
+  }
+
+  .social > li > a {
+    font-size: 3rem;
+  }
 }
