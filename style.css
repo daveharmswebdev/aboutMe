@@ -102,6 +102,10 @@ a:hover {
     font-size: 2rem;
   }
 
+  .content-footer > p {
+    font-size: 1.5rem;
+  }
+
   .social > li > a {
     font-size: 3rem;
   }
